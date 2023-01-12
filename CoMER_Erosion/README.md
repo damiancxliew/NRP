@@ -10,4 +10,4 @@ Mainly based on his paper:
 
 CoMER: Modeling Coverage for Transformer-based Handwritten Mathematical Expression Recognition
 
-## Changes: datamodule.py file found under comer folder
+Changes: datamodule.py file found under comer folder
