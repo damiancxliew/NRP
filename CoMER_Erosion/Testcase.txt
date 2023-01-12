@@ -1,0 +1,43 @@
+Testcase 1
+
+CoMER
+
+x ^ { 2 } = \sum \limits _ { a = 1 } ^ { 3 } x _ { a } ^ { 2 }
+
+CoMER_Erosion
+
+x ^ { 2 } = \sum \limits _ { a = 1 } ^ { 3 } x _ { a } ^ { 2 }
+
+Testcase 2
+
+Answer: \frac { 1 } { 3 ! } ( \frac { 3 \sqrt { 3 } } { 4 } ) ^ { 3 }
+
+CoMER
+
+\frac { 1 } { 3 _ { 0 } } ( \frac { \sqrt { 3 } } { 4 } ) ^ { 3 }
+
+CoMER_Erosion
+\frac { 1 } { 3 ! } ( \frac { \sqrt { 3 } } { 4 } ) ^ { 3 }
+
+
+Testcase 3
+
+Answer: \lim \limits _ { n \rightarrow \infty } v ( n )
+
+CoMER
+\lim \limits _ { r \rightarrow \infty } V ( r )
+
+CoMER_Erosion
+\lim \limits _ { n \rightarrow \infty } v ( n )
+
+
+Testcase 4
+
+Answer:
+
+CoMER
+3 a _ { 1 } a _ { 1 } a _ { 2 } a _ { 3 } a _ { 4 } z
+
+
+CoMER_Erosion
+\{ a _ { 1 } , a _ { 2 } , a _ { 3 } , a _ { 4 } , 2
